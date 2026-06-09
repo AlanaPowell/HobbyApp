@@ -16,16 +16,19 @@ Github: alanapowell
 Email: alana.powell@colorado.edu
 
 Meeting time: 
-Working Meeting: Thursday 1:00pm EST / 10:00am PT
-Checkin Meeting: Sunday 1:00pm EST / 10:00am PT
+Working Meetings: Monday and Friday 4:00pm EST / 1:00pm PT
+
+
 
 Vision Statement
 
-Hobby Tracker is a web application for hobby enthusiasts to track and manage the baby's schedule, health, and milestones; for example for sleep and feeding schedules, tracking diaper changes (wet vs dry), doctor's appointments, etc. The application assists the parents with timely reminders and simple tracking of baby-related data.
+Hobby Tracker is a web application for hobby enthusiasts to track and manage their hobbies in a centralized place. 
+Our current scope will allow the users to create a unique login and affiliated profile, where they can choose from a list of hobby categories to save to their profile. 
+The user will also be able to edit and delete hobbies from their profile, as well as logout or delete their account. 
 
 Motivation
 
-There are many schedule and project tracking tools, but Baby Tracker is specialized for parents and their new babies. It helps parents who struggle with keeping track of and remembering all baby-related data. Instead of having schedules and other information scattered across various mediums, parents can enter and view all this data in one specialized app and even use it to share important information with doctors.
+As two students with limited time and varied interests, we see the value in an app that would help us organize our hobbies in order to use our free time more efficiently. 
 
 Risks
 
@@ -36,18 +39,21 @@ Understanding the domain and actual priorities of parents
 Mitigation Strategy for above risks
 
 Scope creep: Clarifying and define early on the Minimum Viable Product, with other features as "stretch goals"
-Learning curve: Using assignments/tutorials to learn and working with each other, as we all have a different skill set
+Learning curve: Using previous assignments and online tutorials to learn as well as working with each other, as we all have a different skill set
 Scheduling/Coordiation: Frequent communication & weekly standups along with using project management software to track who is doing what and when
-Understanding the domain: Getting feedback from actual parents (we have one on the team!) and doing additional research
+Understanding the domain: Getting feedback from friends on user interface
+
 Development Method
 
-We will use an agile approach with time-boxed sprints and shorter once-per-week standup meetings to give progress updates and a longer once-per-week meeting for planning and assigning tasks, and making project adjustments if needed. We will use a kanban board for tracking tasks and progress. We would like to continuously test features as we progress with Github actions for automatically running unit test.
+We will use an agile approach with time-boxed sprints and  one to two hour twice-per-week meetings for planning and assigning tasks, and making project adjustments if needed. 
+We will use a kanban board for tracking tasks and progress. We would like to continuously test features as we progress with Github actions for automatically running unit tests. 
+We will create models on Figma and plan out hobby categories on Mira. 
 
 Project Tracking Software
 
-We plan to use Trello as our kanban board for task and progress tracking. Tasks will be assigned to specific team members.
+We plan to use Trello as our kanban board for task and progress tracking. Tasks will be assigned to specific team members or as a group.
 
-Link to Trello: https://trello.com/invite/b/699662ba3c112c364fc9206b/ATTI1766f5bcc1b7f416627efcc0c71f3b2bE0CB4D5F/team-fawn
+Link to Trello: https://trello.com/b/c6DIg0yI/summer-project
 
 Tech Stack
 
@@ -57,7 +63,5 @@ HTML and CSS for layout and styling
 JavaScript, possibly using React for complex UI components
 Backend
 
-Python with Flask
-Database
+Python with Flask using GitHub and StreamLit
 
-Relational database, likely SQLite to start, but we may change to a more powerful DB such as MySQL or Postgres
