@@ -48,6 +48,10 @@ class User(db.Model):
     def check_password(self, password):
         return check_password_hash(self.password_hash, password)
 
+class Category(db.Model):
+    id: Mapped[int] = mapped_column(primary_key=True)
+    name: Mapped[str] = mapped_column(nullable=False)
+    hobbies: Mapped[list["Hobby"]] = relationship(back_populates="category")
     
 class Hobby(db.Model):
     id: Mapped[int] = mapped_column(primary_key=True)
